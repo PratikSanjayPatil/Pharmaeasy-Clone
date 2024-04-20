@@ -1,0 +1,1003 @@
+
+    /* Universal style */
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Inter, sans-serif;
+            color: #30363c;
+        }
+
+        .br{
+            border: 1px solid black;
+        }
+
+        .flex{
+            display: flex;
+        }
+    /* Universal style end*/
+
+
+    /* Logo and some options  */
+        #Container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            gap: 60px;
+        }
+
+        #NavBar{
+            justify-content: center;
+            align-items: center;
+            height: 64px;
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px 0px inset;
+            position: fixed;
+            background-color: white;
+        }
+
+        .options{
+            display: flex;
+            justify-content: space-between;
+            height: 60%;
+            width: 94%;
+        }
+
+        .options>div{
+            height: 100;
+        }
+
+        .logo{
+            align-items: center;
+            gap: 30px;
+            margin: 0 40px;
+        }
+
+        #hr{
+            width: 0.3px;
+            height: 30px;
+            color: #8897a2;
+            background-color: #8897a2;
+        }
+
+        .info>div{
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .info>div>span,img{
+            color: #4f585e;
+            font-size: 12px;
+        }
+
+        .info>div>a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+
+        .info>i{
+            font-size: 12px;
+        }
+
+        /* Logo and some options end */
+
+        /* Menu options start  */
+
+        #NavBar>.options>.menu{
+            display: flex;
+            margin: 0 40px;
+            gap: 50px;
+        }
+        .menu>a{
+            display: flex;
+            align-items: center;
+            color: black;
+            font-weight: 500;
+            text-decoration: none;
+            gap: 10px;
+        }
+        .menu>.button{
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #eef4ff;
+            cursor: pointer;
+        }
+
+        .menu>.button:hover{
+            background-color: #dce4f1;
+        }
+
+        .menu>a>span>i{
+            color: #30363c;
+            font-size: 20px;
+        }
+
+        .menu>a>span{
+            color: #30363c;
+            font-size: 14px;
+        }
+
+    /* Menu options start end */
+
+    /* Menu option for mobile  */
+
+        .Logo_Menu{
+            width: auto;
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+        }
+        .Logo_Menu>img{
+            width: 110px;
+        }
+
+        .Logo_Menu>a{
+            color: black;
+            text-decoration: none;
+        }
+
+        #M_Nav{
+            display: none;
+        }
+
+        #M_Nav>.options{
+            width: 98%;
+        }
+
+        #M_NAv>.options>.menu{
+            margin-right: 0px;
+        }
+
+        #M_Nav>.options>.menu{
+            padding: 10px ;
+            gap: 50px;
+        }
+
+    /* Menu option for mobile end  */
+
+    /* features for Desktop */
+
+        #featurs{
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            height: 40px;
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px 0px inset;
+            margin-top: 64px;
+            position: fixed;
+        }
+
+        #featurs>.feature{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 95%;
+        }
+
+
+        .feature>div>a{
+            text-decoration: none;
+            color: #30363c;
+            gap: 10px;
+            font-size: 14px;
+            margin-right: 10px;
+
+        }
+
+        .feature>div>a:hover,.feature>div>a>span:hover,.feature>div>a>span>i:hover{
+            color: #15ACA5;
+        }
+
+        .feature>div>a>span>i{
+            font-size: 12px;
+            font-weight: 700;
+        }
+        
+    
+
+    /* features desktop end */
+
+    /* feature for mobile */
+
+        #Mfeaturs{
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px 0px inset;
+        }
+
+        #Mfeaturs>.Mfeature{
+            display: flex;
+            width: 95%;
+            height: 80%;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #Mfeaturs>.Mfeature>span>img{
+            width: 90%;
+            margin: 5px 0 0 0;
+        }
+
+        #Mfeaturs>.Mfeature>.text{
+            font-size: 13px;
+            color: #6e787e;
+        }
+
+        #Mfeaturs>.Mfeature>span>a{
+            font-size: 13px;
+            font-weight: 600;
+            color: #30363c;
+            text-decoration: none;
+        }
+
+        #Mfeaturs>.Mfeature>span>i{
+            font-size: 13px;
+        }
+
+    /* feature for desktop end */
+
+    /* HealtOptions start */
+        
+        #HealthOptions{
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            height: 500px;
+            width: 88%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.12) -1px -2px 0px 0px inset;
+            display: none;
+            position:absolute;
+            margin-top: 110px;
+            background-color: white;
+        }
+
+        #HealthOptions>.HOtn{
+            display: flex;
+            flex-direction: column;
+            width: 225px;
+            height: 95.5%;
+            gap: 5px;
+            overflow: auto;
+            padding: 10px;
+            background-color: #f5f8fc;
+            border-radius: 10px;
+        }
+
+        #HealthOptions>.HOtn::-webkit-scrollbar{
+            width: 4px; 
+            border-radius: 10px;
+            scrollbar-color: #dce4f1;
+        }
+
+        #HealthOptions>.HOtn::-webkit-scrollbar-thumb{
+            background-color: #888; /* Color of the handle */
+            border-radius: 10px;
+            scrollbar-color: #dce4f1;
+        }
+
+        #HealthOptions>.HOtn>span{
+            font-size: 14px;
+            height: 20px;
+            width: 80%;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        #HealthOptions>.HOtn>span:hover{
+            cursor:default;
+            /* border: 1px solid red; */
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+
+
+    /* List start */
+
+        .TProduct{
+            width: 75%;
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            height: 250px;
+            gap: 10px;
+            padding-top: 25px;
+        }
+        .TProduct>div{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .TProduct>div>span{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 600;
+            letter-spacing: normal;
+        }
+
+        .TProduct>div>a{
+            font-size: 12px;
+            line-height: 16px;
+            text-decoration: none;
+        }
+
+    /* List start */
+
+        .active{
+            background-color: #dce4f1;
+            border-radius: 10px;
+        }
+    /* HealtOptions start end*/
+
+
+    /* <!-- Start search div here --> */
+
+        #SearchDiv{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+        #SearchDiv>.innerSearchdiv{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 95%;
+            height: 180px;
+            /* border: 1px solid red; */
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            width: 95%;
+            height: 80%;
+            gap: 10px;
+            /* border: 1px solid black; */
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text{
+            width: 65%;
+            height: 40%;
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid yellow; */
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.hTag{
+            display: flex;
+            align-items: center;
+            color: #30363c;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.hTag>h3{
+            font-size: 23px;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.Psg{
+            /* border: 1px solid red; */
+            color: #30363c;
+            display: flex;
+            align-items: end;
+            gap: 10px;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.Psg>span>i{
+            font-size: 18px;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.Psg>a{
+            color: #15ACA5;
+            text-decoration: none;
+            font-weight: 600;
+            /* cursor: default; */
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.Psg>a>i{
+            font-size: 13px;
+            color: #15ACA5;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.text>.Psg>span>#rt{
+            font-size:14px;
+            color: #15ACA5;
+        }
+
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0 ;
+            padding-left: 30px;
+            border: 1px solid lightgray;
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 8px 0px;
+            border-radius: 100px;
+            width: 65%;
+            height: 35%;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>.inputBar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 85%;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>div>input{
+            width: 95%;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>.inputBar>span>i{
+            font-size: 20px;
+            color: #8897a2;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>.btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid red; */
+            border-radius: 100px;
+            height: 40px;
+            width: 13%;
+            background-color: #10847e;
+            cursor: pointer;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>.btn>h3{
+            color: white;
+        }
+
+        #SearchDiv>.innerSearchdiv>.holder>.searchbar>.btn:hover{
+            background-color: #0a534f;
+        }
+
+    /* <!-- end search div here --> */
+
+    /* Options and Offers start */
+
+        #OtherOptn{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #OtherOptn>.innerOtherOptndiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            /* height: 180px; */
+            /* border: 1px solid red; */
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            gap: 20px;
+            width: 95%;
+            height: 80%;
+            /* border: 1px solid black; */
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            /* width: 9.5%; */
+            height: 95%;
+            padding: 5px;
+            text-align: center;
+            gap: 15px;
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div:hover{
+            border-radius: 10px;
+            box-shadow: rgba(33, 33, 33, 0.06)0px 3px 4px 0px, rgba(33, 33, 33, 0.04) 0px 3px 3px 0px, rgba(33, 33, 33, 0.08)0px 1px 8px 0px;
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div>img{
+            height: 55%;
+            width: 70%;
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div>p{
+            font-size: 15px;
+            font-weight: 550;
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div>span{
+            font-size: 13px;
+            color: #f47779;
+            font-weight: 600;
+        }
+
+        #OtherOptn>.innerOtherOptndiv>.offers>div>hr{
+            width: 75%;
+            margin-top: -15px;
+            color: rgb(223, 221, 221);
+            background-color: lightgrey;
+        }
+
+    /* Options and Offers end */
+
+    /* image slide show  start */
+
+        #imgSlide{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 225px;
+            /* border: 1px solid red; */
+            padding-top: 35px;
+            /* position:static; */
+        }
+
+        #imgSlide>.imgSlideInnerDiv{
+            display: flex;
+            gap: 25px;
+            width: 1350px;
+            /* border: 1px solid black; */
+            overflow: auto;
+            scrollbar-width: none;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.loop{
+            display: flex;
+            width: 700px;
+            left: 0;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.loop>img{
+            width: 550px;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            border: 1px solid black;
+            position: absolute;
+            background-color: black;
+            
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            border: 1px solid black;
+            position: absolute;
+            background-color: black;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.right>i,.left>i{
+            color: white;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.left{
+            margin-top: 90px;
+            margin-left: -15px;
+        }
+
+        #imgSlide>.imgSlideInnerDiv>.right{
+            margin-left: 86%;
+            margin-top: 90px;
+        }
+
+        
+    /* image slide show  end */
+
+
+    /* Lab health test section start */
+
+        #labTest{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            padding-top: 50px;
+            margin-top: 10px;
+            gap: 30px;
+        }
+
+        #labTest>.labTestInnerDiv{
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            /* justify-content: start; */
+            gap: 35px;
+            /* border: 1px solid red; */
+        }
+
+        #labTest>.labTestInnerDiv>.headline{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: start; */
+            align-items: start;
+            gap: 10px;
+        }
+
+        #labTest>.labTestInnerDiv>.headline>.logo>span>h3{
+            /* text-align: start; */
+            /* border: 1px solid red; */
+            color: #4f585e;
+        }
+
+        #labTest>.labTestInnerDiv>.headline>.logo>span{
+            display: flex;
+            gap: 10px;
+        }
+
+        #labTest>.labTestInnerDiv>.headline>.logo>span>img{
+            width: 100px;
+        }
+
+        
+
+    /* Lab health test section end */
+
+    /* img list start */
+        #labTest>.labTestInnerDiv2{
+            overflow: auto;
+            scrollbar-width: none;
+            width: 90%;
+        }
+        
+        #labTest>.labTestInnerDiv2>.imgList{
+            display: flex;
+            gap: 30px;
+        }
+
+
+        #labTest>.labTestInnerDiv2>.imgList>img{
+            width: 180px;
+            height: 180px;
+        }
+
+        #labTest>.icon{
+            /* border: 1px solid red; */
+            width: 92%;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            margin-top: 180px;
+        }
+
+        #labTest>.icon>.right{
+           background-color: black;
+           border-radius: 50%;
+           width: 50px;
+           height: 50px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+
+        #labTest>.icon>.left{
+            background-color: black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+           justify-content: center;
+        }
+
+        .right>i{
+            color: white;
+            /* background-color: white; */
+        }
+
+        .left>i{
+            color: white;
+        }
+        
+    /* img list end */
+
+    /* Prescription Section start */
+
+
+    #Prescription{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 200px;
+        border: 1px solid #eef4ff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #Prescription>.leftSide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        width: 40%;
+        background-color: #eef4ff;
+        padding: 0 15px;
+    }
+
+    #Prescription>.leftSide>div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #Prescription>.leftSide>div>h3{
+        color: #30363c;
+    }
+
+    #Prescription>.leftSide>div>p{
+        color: #4f585e;
+    }
+
+    #Prescription>.leftSide>div>img{
+        width: 100px;
+    }
+
+    #Prescription>.leftSide>div>button{
+        height: 45px;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #10847e;
+        border: none;
+        border-radius: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    #Prescription>.leftSide>div>button>i{
+        color: white;
+    }
+
+    #Prescription>.rightSide{
+        display: flex;
+        width: 55%;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 15px;
+    }
+
+    #Prescription>.rightSide>.opt4{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #Prescription>.rightSide>.opt4>div{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #Prescription>.rightSide>.opt4>div>span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #3661b0;
+        font-weight: 600;
+        background-color: #eef4ff;
+        border-radius: 10px;
+        height: 35px;
+        width: 35px;
+    }
+
+    #Prescription>.rightSide>.opt4>div>p{
+        font-size: 15px;
+    }
+
+    /* Prescription Section end */
+
+
+
+    /* Responsiveness */
+
+        @media screen and (max-width:1285.60px) {
+            .name{
+                display: none;
+            }
+            .options{
+                width: 100%;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.text{
+                width: 85%;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.searchbar{
+                width: 85%;
+            }
+
+
+            #imgSlide>.imgSlideInnerDiv>.right{
+                margin-left: 90%;
+                margin-top: 90px;
+            }
+
+            #imgSlide>.imgSlideInnerDiv>.left{
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width:1023px) {
+            #NavBar{
+                display: none;
+            }
+            #M_Nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 64px;
+                width: 98%;
+                box-shadow: rgba(0, 0, 0, 0.04) 0px 6px 8px 0px;
+                background-color: white;
+                position: fixed;
+            }
+            
+            #featurs{
+                display: none;
+            }
+            #Mfeaturs{
+                display: flex;
+                margin-top: 63px;
+                padding: 0;
+                position: fixed;
+                background-color: white;
+            }
+
+            #HealthOptions{
+                display: none;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.text>.Psg{
+                display: none;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.text{
+                justify-content: center;
+            }
+
+            #OtherOptn>.innerOtherOptndiv>.offers{
+                grid-template-columns: repeat(5,1fr);
+            }
+
+            #imgSlide>.imgSlideInnerDiv>.right{
+                margin-left: 90%
+            }
+
+            #Prescription{
+                flex-direction: column;
+                height: auto;
+            }
+
+            #Prescription>.leftSide{
+                justify-content: space-evenly;
+                /* background-color: red; */
+                width: 100%;
+                height: 180px;
+            }
+
+            #Prescription>.rightSide{
+                /* border: 1px solid black; */
+                width: 100%;
+                padding: 20px 15px;
+            }
+           
+        }
+
+        @media screen and (max-width:720px) {
+            .M_name{
+                display: none;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.searchbar>.inputBar{
+                width: 75%;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.searchbar{
+                padding: 0 10px;
+            }
+
+            #SearchDiv>.innerSearchdiv>.holder>.searchbar>.btn{
+                width: 23%;
+                padding: 0 10px;
+            }
+
+            #OtherOptn>.innerOtherOptndiv>.offers{
+                grid-template-columns: repeat(4,1fr);
+            }
+
+            #imgSlide>.imgSlideInnerDiv>.loop{
+                display: flex;
+                width: 400px;
+                gap: 10px;
+                /* left: 10; */
+            }
+
+            #imgSlide>.imgSlideInnerDiv>.loop>img{
+                width: 450px;
+                height: 100%;
+                border-radius: 20px;
+                gap: 10px;
+            }
+
+            #imgSlide>.imgSlideInnerDiv{
+                gap: 55px;
+            }
+
+            #imgSlide>.imgSlideInnerDiv>.right{
+                margin-left: 80%
+            }
+
+            #Prescription>.rightSide>.opt4{
+                grid-template-columns: repeat(1,1fr);
+            }
+
+            #Prescription>.leftSide{
+                height: auto;
+                padding: 10px 10px;
+                flex-direction: column;
+            }
+        }
+
+        @media screen and (max-width:450px){
+            #OtherOptn>.innerOtherOptndiv>.offers{
+                grid-template-columns: repeat(3,1fr);
+                height: auto;
+            }
+
+            #Mfeaturs{
+                padding: 0;
+                /* margin: -50px; */
+            }
+        }
+
+
+    /* Responsive end */
