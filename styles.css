@@ -252,7 +252,7 @@
     /* HealtOptions start */
         
         #HealthOptions{
-            display: block;
+            /* display: block; */
             display: flex;
             justify-content: space-between;
             height: 500px;
@@ -261,7 +261,7 @@
             box-shadow: rgba(0, 0, 0, 0.12) -1px -2px 0px 0px inset;
             display: none;
             position:absolute;
-            margin-top: 110px;
+            margin-top: 100px;
             background-color: white;
         }
 
@@ -612,7 +612,7 @@
         }
 
         #imgSlide>.imgSlideInnerDiv>.left{
-            margin-top: 90px;
+            margin-top: 50px;
             margin-left: -15px;
         }
 
@@ -678,10 +678,18 @@
     /* Lab health test section end */
 
     /* img list start */
+        
+        #labTest{
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            /* border: 1px solid black; */
+        }
         #labTest>.labTestInnerDiv2{
             overflow: auto;
             scrollbar-width: none;
             width: 90%;
+            /* border: 1px solid red; */
         }
         
         #labTest>.labTestInnerDiv2>.imgList{
@@ -697,11 +705,11 @@
 
         #labTest>.icon{
             /* border: 1px solid red; */
-            width: 92%;
+            width: 94%;
             display: flex;
             justify-content: space-between;
             position: absolute;
-            margin-top: 180px;
+            margin-top: 160px;
         }
 
         #labTest>.icon>.right{
@@ -746,6 +754,8 @@
         border: 1px solid #eef4ff;
         border-radius: 10px;
         overflow: hidden;
+        /* border: 1px solid red; */
+        margin-top: 10px;
     }
 
     #Prescription>.leftSide{
@@ -835,6 +845,258 @@
 
     /* Prescription Section end */
 
+    /* Shop by Categories start */
+
+    #shop{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    #shop>.shopInnerDiv{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+    #shop>.shopInnerDiv>.shopHeadding,.shopArr{
+        display: flex;
+        width: 100%;
+        overflow: auto;
+        scrollbar-width: none;
+        gap: 10px;
+    }
+
+    #shop>.shopInnerDiv>.shopArr>div>p{
+        counter-reset: #30363c;
+        /* font-weight: 550; */
+    }
+
+    #shop>.shopInnerDiv>.shopArr>div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 200px;
+        /* height: 220px; */
+        text-align: center;
+        /* background-color: #10847e; */
+    }
+
+    #shop>.shopInnerDiv>.shopArr>div>img{
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+    }
+
+    #shop>.shopInnerDiv>.shopArr>div>img:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .shopicon{
+        position: absolute;
+        margin-top: 110px;
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .shopicon>.sright,.sleft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .shopicon>.sright>i,.sleft>i{
+        color: white;
+    }
+
+    /* Shop by Categories end */
+
+
+    /* Plus Member start */
+
+    #Plus{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 180px;
+    }
+
+    #Plus>.innerPlusDiv{
+        display: flex;
+        width: 90%;
+        background-image: linear-gradient(to top right,rgb(247, 153, 169),#8678de,#8678de,#8678de,rgb(247, 153, 169));
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe{
+        width: 30%;
+        /* border: 1px solid black; */
+    }
+
+    #Plus>.innerPlusDiv>.explore{
+        /* border: 1px solid blue; */
+        width: 40%;
+    }
+
+    #Plus>.innerPlusDiv>.PlusImg{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 30%;
+        /* border: 1px solid red; */
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe>span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+        gap: 10px;
+        width: 100%;
+        height: 60px;
+        /* padding-top: 10px; */
+        /* border: 1px solid black; */
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe>span>img{
+        width: 90px;
+        height: 90px;
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe>p{
+        text-align: center;
+        color: lightgray;
+        font-size: 20px;
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Plus>.innerPlusDiv>.PlusDescribe>hr{
+        width: 85%;
+        background-image: linear-gradient(to right,#f5b326,#8678de);
+        border: none;
+        height: 3.5px;
+        margin-top: 20px;
+    }
+
+    #Plus>.innerPlusDiv>.explore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Plus>.innerPlusDiv>.explore>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 60%;
+        /* border: 1px solid red; */
+    }
+
+    #Plus>.innerPlusDiv>.explore>div>p{
+        margin-top: 10px;
+        color: white;
+    }
+
+    #Plus>.innerPlusDiv>.explore>div>button{
+        border: none;
+        font-weight: 600;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #f5b326;
+        color: white;
+        width: 150px;
+        height: 40px;
+    }
+
+    #Plus>.innerPlusDiv>.explore>div>button>i{
+        font-size: 8px;
+        color: #f5b326;
+        background-color: white;
+        padding: 5px 6px 5px 6px;
+        border-radius: 50%;
+    }
+
+
+    /* Plus Member end */
+
+    /* Why choose Us start */
+
+    #WChoose{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #WChoose>.innerWhyChoose{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+
+    #WChoose>.innerWhyChoose>.head{
+        width: 100%;
+        padding: 10px;
+        height: 50px;
+        /* border: 1px solid red; */
+    }    
+
+    #WChoose>.innerWhyChoose>.WhyChooseUsOpt{
+        display: flex;
+        justify-content: space-around;
+        height: 130px;
+        align-items: center;
+    }
+
+    #WChoose>.innerWhyChoose>.WhyChooseUsOpt>div{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    #WChoose>.innerWhyChoose>.WhyChooseUsOpt>div>img{
+        width: 80px;
+    }
+
+    #WChoose>.innerWhyChoose>.WhyChooseUsOpt>div>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* why choose us end */
 
 
     /* Responsiveness */
@@ -930,9 +1192,39 @@
                 padding: 20px 15px;
             }
            
+            #Plus{
+                height: auto;
+            }
+
+            #Plus>.innerPlusDiv{
+                height: auto;
+                flex-direction: column;
+            }
+
+            #Plus>.innerPlusDiv>.PlusImg{
+                width: 100%;
+            }
+
+            #Plus>.innerPlusDiv>.explore{
+                width: 100%;
+            }
+
+            #Plus>.innerPlusDiv>.PlusDescribe{
+                width: 100%;
+            }
         }
 
         @media screen and (max-width:720px) {
+
+            #WChoose>.innerWhyChoose>.WhyChooseUsOpt{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            #WChoose>.innerWhyChoose>.WhyChooseUsOpt>div{
+                padding: 20px;
+            }
+
             .M_name{
                 display: none;
             }
@@ -988,6 +1280,15 @@
         }
 
         @media screen and (max-width:450px){
+            #WChoose>.innerWhyChoose>.WhyChooseUsOpt{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+
+            #WChoose>.innerWhyChoose>.WhyChooseUsOpt>div{
+                padding: 20px;
+            }
+
             #OtherOptn>.innerOtherOptndiv>.offers{
                 grid-template-columns: repeat(3,1fr);
                 height: auto;
